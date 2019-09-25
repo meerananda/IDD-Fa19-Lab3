@@ -1,6 +1,6 @@
 # Data Logger (and using cool sensors!)
 
-*A lab report by John Q. Student.*
+*A lab report by Meera Nanda.*
 
 ## In The Report
 
@@ -31,7 +31,7 @@ lightly touching - 300-400
 pressing - 900
 full force - 1010
 
-[See FSR Video] (https://youtu.be/-Ptw1uTUhtM)
+[See FSR Video](https://youtu.be/-Ptw1uTUhtM)
 
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
 
