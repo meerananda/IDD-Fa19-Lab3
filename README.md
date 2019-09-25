@@ -43,23 +43,23 @@ full force - 1010
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
 
-[See Photoresistor Video](https://youtu.be/P8UInswpBZA)
-[See Flex Sensor Video](https://youtu.be/MxJ0pTu3t5w)
+[See Photoresistor Video](https://youtu.be/P8UInswpBZA)\
+[See Flex Sensor Video](https://youtu.be/MxJ0pTu3t5w)\
 [See Soft Pot Video](https://youtu.be/Iri1fm8pl8g)
 
 ### 2. Accelerometer
  
 **a. Include your accelerometer read-out code in your write-up.**
 
-[See Accelerometer Video](https://youtu.be/uHOQc99nG_Q)
-[See Accelerometer Controlling RGB LED Video](https://youtu.be/BDmlbut3kAY)
+[See Accelerometer Video](https://youtu.be/uHOQc99nG_Q)\
+[See Accelerometer Controlling RGB LED Video](https://youtu.be/BDmlbut3kAY)\
 [See Accelerometer Readings on LCD Video](https://youtu.be/fuYh2QZAo4k)
 
 ## Optional. Graphic Display
 
 **Take a picture of your screen working insert it here!**
 
-[See Graphic Display Video](https://youtu.be/IzqdssEK25E)
+[See Graphic Display Video](https://youtu.be/IzqdssEK25E)\
 [See A0 Readings on Graphic Display Video](https://youtu.be/boV_HuZNLkM)
 
 ## Part D. Logging values to the EEPROM and reading them back
