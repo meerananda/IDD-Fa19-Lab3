@@ -20,6 +20,8 @@ For this lab, we will be experimenting with a variety of sensors, sending the da
 **How might you use this with only the parts in your kit? Show us your solution.**
 red is more powerful than others, needs more resistance
 
+[See RBG LED Video](https://youtu.be/HxUzgDrZWlk)
+
 ## Part C. Voltage Varying Sensors 
  
 ### 1. FSR, Flex Sensor, Photo cell, Softpot
@@ -29,27 +31,36 @@ lightly touching - 300-400
 pressing - 900
 full force - 1010
 
+[See FSR Video] (https://youtu.be/-Ptw1uTUhtM)
+
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
+
+[See FSR Controlling RBG LED Video](https://youtu.be/6nhOXofDmZg)
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
 
+[See Photoresistor Video](https://youtu.be/P8UInswpBZA)
+[See Flex Sensor Video](https://youtu.be/MxJ0pTu3t5w)
+[See Soft Pot Video](https://youtu.be/Iri1fm8pl8g)
+
 ### 2. Accelerometer
  
 **a. Include your accelerometer read-out code in your write-up.**
 
-### 3. IR Proximity Sensor
-
-**a. Describe the voltage change over the sensing range of the sensor. A sketch of voltage vs. distance would work also. Does it match up with what you expect from the datasheet?**
-
-**b. Upload your merged code to your lab report repository and link to it here.**
+[See Accelerometer Video](https://youtu.be/uHOQc99nG_Q)
+[See Accelerometer Controlling RGB LED Video](https://youtu.be/BDmlbut3kAY)
+[See Accelerometer Readings on LCD Video](https://youtu.be/fuYh2QZAo4k)
 
 ## Optional. Graphic Display
 
 **Take a picture of your screen working insert it here!**
+
+[See Graphic Display Video](https://youtu.be/IzqdssEK25E)
+[See A0 Readings on Graphic Display Video](https://youtu.be/boV_HuZNLkM)
 
 ## Part D. Logging values to the EEPROM and reading them back
  
@@ -66,6 +77,8 @@ full force - 1010
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
+
+[See EEPROM Analog Write/Read Video](https://youtu.be/kQPbyNzoZ_s)
 
 ### 2. Design your logger
  
