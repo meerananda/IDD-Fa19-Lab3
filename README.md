@@ -13,11 +13,12 @@ For this lab, we will be experimenting with a variety of sensors, sending the da
 **a. Based on the readings from the serial monitor, what is the range of the analog values being read?**\
 0-1023
  
-**b. How many bits of resolution does the analog to digital converter (ADC) on the Arduino have?**
+**b. How many bits of resolution does the analog to digital converter (ADC) on the Arduino have?**\
+10 bits.
 
 ## Part B. RGB LED
 
-**How might you use this with only the parts in your kit? Show us your solution.**
+**How might you use this with only the parts in your kit? Show us your solution.**\
 red is more powerful than others, needs more resistance
 
 [See RBG LED Video](https://youtu.be/HxUzgDrZWlk)
