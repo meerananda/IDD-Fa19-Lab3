@@ -120,3 +120,5 @@ For my logger, I created a night light that works with a photoresistor. Below is
 ### 3. Create your data logger!
  
 **a. Record and upload a short demo video of your logger in action.**
+[Night Light Code](/code/Night_Light.ino)\
+[Night Light Video](https://youtu.be/oPsrf82nwNY)
