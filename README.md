@@ -107,7 +107,8 @@ You could store the data at different addresses in the EEPROM by seperating it i
 
 [Updated EEPROM Code](/code/SwitchState2_New/)
 
-[See EEPROM Analog Write/Read Video](https://youtu.be/kQPbyNzoZ_s)
+Serial Moniter Output:
+![EEPROM Monitor Screenshot](/images/EEPROM.png)
 
 ### 2. Design your logger
 For my logger, I created a night light that works with a photoresistor. Below is the state diagram:
@@ -117,6 +118,6 @@ For my logger, I created a night light that works with a photoresistor. Below is
 
 ### 3. Create your data logger!
  
-**a. Record and upload a short demo video of your logger in action.**
+**a. Record and upload a short demo video of your logger in action.**\
 [Night Light Code](/code/Night_Light.ino)\
 [Night Light Video](https://youtu.be/oPsrf82nwNY)
