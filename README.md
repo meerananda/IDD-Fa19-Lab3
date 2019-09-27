@@ -71,7 +71,7 @@ Soft pot - linear: resistance increases/decreases depending on the direction you
 ### 2. Accelerometer
  
 **a. Include your accelerometer read-out code in your write-up.**\
-[Accelerometer Read-Out Code]()
+[Accelerometer Read-Out Code](/code/Accelerometer_ReadOutCode.ino)
 
 [See Accelerometer Video](https://youtu.be/uHOQc99nG_Q)\
 [See Accelerometer Controlling RGB LED Video](https://youtu.be/BDmlbut3kAY)\
