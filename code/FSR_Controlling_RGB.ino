@@ -1,4 +1,8 @@
-// References: https://forum.arduino.cc/index.php?topic=100421.0
+/* 
+ * References: https://forum.arduino.cc/index.php?topic=100421.0
+ * This code changes the color of the RGB LED based on the amount of force applied.
+ * 
+ */
 
 int fsrAnalogPin = A0; // FSR is connected to analog 0
 
@@ -12,7 +16,7 @@ int red, green, blue;
 int rgbValue;
 
 void setup(void) {
- Serial.begin(9600);   // We'll send debugging information via the Serial monitor
+ Serial.begin(9600); 
  pinMode(redpin, OUTPUT);
  pinMode(greenpin, OUTPUT);
  pinMode(bluepin, OUTPUT);
