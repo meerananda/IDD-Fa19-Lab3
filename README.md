@@ -60,8 +60,8 @@ Then the values from 0-255, 256-510 and 511-765 will be written to the pins for 
 Around 10k ohms in series for each sensor allows for a reasonable range of voltages. This was referenced from the datasheets for each sensor.
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**\
-Photoresistor - logarithmic: as light increases, resistance decreases.
-Flex sensor - linear: as the bending angle increases, the resistance increases.
+Photoresistor - logarithmic: as light increases, resistance decreases.\
+Flex sensor - linear: as the bending angle increases, the resistance increases.\
 Soft pot - linear: resistance increases/decreases depending on the direction you move the position in.
 
 [See Photoresistor Video](https://youtu.be/P8UInswpBZA)\
@@ -115,6 +115,7 @@ You could store the data at different addresses in the EEPROM by seperating it i
 For my logger, I created a night light that works with a photoresistor. Below is the state diagram:
 
 **a. Insert here a copy of your final state diagram.**
+![Night Light State Diagram](/images/NightLight.png)
 
 ### 3. Create your data logger!
  
