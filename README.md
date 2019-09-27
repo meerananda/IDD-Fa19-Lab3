@@ -53,7 +53,7 @@ rgbValue = map(fsrValue, 0, 1000, 0, 765);
 ```
 Then the values from 0-255, 256-510 and 511-765 will be written to the pins for red, green and blue respectively.
 
-[See complete code here]()\
+[See complete code here](/code/FSR_Controlling_RGB.ino)\
 [See FSR Controlling RBG LED Video](https://youtu.be/6nhOXofDmZg)
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**\
