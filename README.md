@@ -70,8 +70,8 @@ Soft pot - linear: resistance increases/decreases depending on the direction you
 
 ### 2. Accelerometer
  
-**a. Include your accelerometer read-out code in your write-up.**
-[Accelerometer Read-Out Code]()\
+**a. Include your accelerometer read-out code in your write-up.**\
+[Accelerometer Read-Out Code]()
 
 [See Accelerometer Video](https://youtu.be/uHOQc99nG_Q)\
 [See Accelerometer Controlling RGB LED Video](https://youtu.be/BDmlbut3kAY)\
@@ -91,8 +91,10 @@ Below is an image of the reading from an FSR on the Graphic Display.
 ### 1. Reading and writing values to the Arduino EEPROM
 
 **a. Does it matter what actions are assigned to which state? Why?**\
+In this example it does because you need to keep track of when you are reading, writing and clearing the EEPROM. If, for instance, you clear something that has been written to the EEPROM before it is read, then your code will not function as planned.
 
 **b. Why is the code here all in the setup() functions and not in the loop() functions?**\
+Because we want to perform each action once and not loop through it continuously.
 
 **c. How many byte-sized data samples can you store on the Atmega328?**\
 1024 bytes.
