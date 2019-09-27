@@ -56,10 +56,10 @@ Then the values from 0-255, 256-510 and 511-765 will be written to the pins for 
 [See complete code here]()\
 [See FSR Controlling RBG LED Video](https://youtu.be/6nhOXofDmZg)
 
-**d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
+**d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**\
 Around 10k ohms in series for each sensor allows for a reasonable range of voltages. This was referenced from the datasheets for each sensor.
 
-**e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
+**e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**\
 Photoresistor - logarithmic: as light increases, resistance decreases.
 Flex sensor - linear: as the bending angle increases, the resistance increases.
 Soft pot - linear: resistance increases/decreases depending on the direction you move the position in.
@@ -79,7 +79,7 @@ Soft pot - linear: resistance increases/decreases depending on the direction you
 
 ## Optional. Graphic Display
 
-**Take a picture of your screen working insert it here!**
+**Take a picture of your screen working insert it here!**\
 Below is an image of the reading from an FSR on the Graphic Display.
 ![Working Screen](/images/GraphicDisplay.png)
 
@@ -90,9 +90,9 @@ Below is an image of the reading from an FSR on the Graphic Display.
  
 ### 1. Reading and writing values to the Arduino EEPROM
 
-**a. Does it matter what actions are assigned to which state? Why?**
+**a. Does it matter what actions are assigned to which state? Why?**\
 
-**b. Why is the code here all in the setup() functions and not in the loop() functions?**
+**b. Why is the code here all in the setup() functions and not in the loop() functions?**\
 
 **c. How many byte-sized data samples can you store on the Atmega328?**\
 1024 bytes.
