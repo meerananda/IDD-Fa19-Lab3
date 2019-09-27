@@ -105,9 +105,9 @@ Analog data from the Arduino analog pins are 10 bits, so in order for it to be b
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**\
 You could store the data at different addresses in the EEPROM by seperating it into byte sized groups.
 
-**Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**\
+**Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
 
-[Updated EEPROM Code]()\
+[Updated EEPROM Code]()
 
 [See EEPROM Analog Write/Read Video](https://youtu.be/kQPbyNzoZ_s)
 
