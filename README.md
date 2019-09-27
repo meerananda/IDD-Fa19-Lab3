@@ -91,7 +91,7 @@ Below is an image of the reading from an FSR on the Graphic Display.
 ### 1. Reading and writing values to the Arduino EEPROM
 
 **a. Does it matter what actions are assigned to which state? Why?**\
-In this example it does because you need to keep track of when you are reading, writing and clearing the EEPROM. If, for instance, you clear something that has been written to the EEPROM before it is read, then your code will not function as planned.
+In this example it does matter because the reading, writing and clearing of the EEPROM has to happen in the correct order. If, for instance, you clear something that has been written to the EEPROM before it is read, then your code will not function as planned. 
 
 **b. Why is the code here all in the setup() functions and not in the loop() functions?**\
 Because we want to perform each action once and not loop through it continuously.
