@@ -107,12 +107,13 @@ You could store the data at different addresses in the EEPROM by seperating it i
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
 
-[Updated EEPROM Code]()
+[Updated EEPROM Code](/code/SwitchState2_New/)
 
 [See EEPROM Analog Write/Read Video](https://youtu.be/kQPbyNzoZ_s)
 
 ### 2. Design your logger
- 
+For my logger, I created a night light that works with a photoresistor. Below is the state diagram:
+
 **a. Insert here a copy of your final state diagram.**
 
 ### 3. Create your data logger!
