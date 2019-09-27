@@ -40,7 +40,7 @@ Full force ~ 1000
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**\
 The voltage appears to have a logarithmic relationship to the force applied. As the force increases, the resistance decreases and therefore the voltage increases. Below is a graph describing this relationship (sourced from the FSR datasheet).
 
-![FSR Voltage by Force Graph](/images/FSRGraph)
+![FSR Voltage by Force Graph](/images/FSRGraph.png)
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**\
 If we want to change only the brightness of the LED, then the code needs to include a map function to take in the FSR reading and translate it to a value between 0-255, as seen below:
@@ -80,6 +80,8 @@ Soft pot - linear: resistance increases/decreases depending on the direction you
 ## Optional. Graphic Display
 
 **Take a picture of your screen working insert it here!**
+Below is an image of the reading from an FSR on the Graphic Display.
+![Working Screen](/images/GraphicDisplay.png)
 
 [See Graphic Display Video](https://youtu.be/IzqdssEK25E)\
 [See A0 Readings on Graphic Display Video](https://youtu.be/boV_HuZNLkM)
